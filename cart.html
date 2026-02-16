@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <nav class="navbar">
+  <div class="nav-left">
+    <span class="brand">Break<span>FAST</span></span>
+  </div>
+
+  <div class="nav-center" id="navMenu">
+    <div class="search-box">
+      <input type="text" placeholder="Search breakfast..." />
+      <button>Search</button>
+    </div>
+  </div>
+
+  <div class="nav-right">
+    <a href="cart.html" class="nav-link">🛒 Cart</a>
+    <a href="#" class="nav-link"> Sign in</a>
+    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+  </div>
+</nav>
+
+
+
+
+
+<div class="container">
+
+  <!-- LEFT SIDE -->
+  <div class="cart-left">
+    <a href="index.html" class="back-btn">← Back to Home</a>
+
+    <div class="cart-box">
+      <h3>Your cart is empty</h3>
+      <p>
+        <a href="home.html" class="browse-link">Browse products</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="cart-right">
+    <h3>Order Summary</h3>
+
+    <div class="summary-row">
+      <span>Subtotal</span>
+      <span>$0.00</span>
+    </div>
+
+    <div class="summary-row">
+      <span>Discount</span>
+      <span>$0.00</span>
+    </div>
+
+    <hr>
+
+    <div class="summary-row total">
+      <span>Estimated Total</span>
+      <span>$0.00</span>
+    </div>
+
+    <button class="checkout-btn">Proceed to Checkout</button>
+  </div>
+
+</div>
+
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Column 1: Brand + Social -->
+    <div class="footer-col">
+      <div class="footer-brand">
+        <h2>Break<span>FAST</span></h2>
+        <p>Freshly baked happiness delivered to your doorstep every morning. Quality and taste you can trust.</p>
+      </div>
+      <div class="footer-social">
+        <a href="#"><img src="https://cliply.co/wp-content/uploads/2019/04/371903520_SOCIAL_ICONS_FACEBOOK-1024x1024.png" alt="Facebook"></a>
+        <a href="#"><img src="https://static.vecteezy.com/system/resources/previews/022/227/334/original/twitter-logo-icon-free-png.png" alt="Twitter"></a>
+        <a href="#"><img src="https://th.bing.com/th/id/R.26d9974a1feec9905a4e0d5e5ddf8db6?rik=Og1ujXM2C1AJHQ&riu=http%3a%2f%2fupload.wikimedia.org%2fwikipedia%2fcommons%2fa%2fa5%2fInstagram_icon.png&ehk=1%2fZWXYn2nN%2fR80TOtcKH5SsdLkkUvMLrB%2fHUXRDHk9I%3d&risl=&pid=ImgRaw&r=0" alt="Instagram"></a>
+      </div>
+      <hr>
+      <p class="footer-rights">© 2026 breakFAST. All Rights Reserved.</p>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Customer Service -->
+    <div class="footer-col">
+      <h3>Customer Service</h3>
+      <ul>
+        <li><a href="#">My Account</a></li>
+        <li><a href="#">Order Tracking</a></li>
+        <li><a href="#">Returns</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Contact + Newsletter -->
+    <div class="footer-col">
+      <h3>Contact Us</h3>
+      <p>Ghaziabad, India</p><br>
+      <p>Email: breakfast@gmail.com</p><br>
+      <p>Phone: +91 7827519451</p>
+        <br>
+      <h4>Newsletter</h4>
+      <div class="newsletter">
+        <input type="text" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </div>
+
+      <p>We accept:</p>
+      <div class="payment-icons">
+        <img src="https://cdn.iconscout.com/icon/free/png-256/netbanking-credit-debit-card-bank-transaction-32302.png" alt="Net Banking">
+        <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/upi-icon.png" alt="UPI">
+        <img src="https://cdn.pixabay.com/photo/2017/09/18/08/56/credit-card-2761073_1280.png" alt="Card Payment">
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>
